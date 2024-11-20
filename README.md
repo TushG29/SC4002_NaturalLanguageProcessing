@@ -1,3 +1,9 @@
+# Welcome to our SC4002 Natural Language Processing Course Project
+## About
+
+This is a project for SC4002 (Natural Language Processing) where we worked on performing sentiment classification.
+
+
 Run the following files in order
 
 Q1:
