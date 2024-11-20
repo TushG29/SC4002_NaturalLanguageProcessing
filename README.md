@@ -18,6 +18,7 @@ Q2:
   Run max_pooling_tuning_word2vec.py. Ensure that self.embedding.weight.requires_grad = True is put to False in line 23.
   Run mean_pooling_tuning_word2vec.py. Ensure that self.embedding.weight.requires_grad = True is put to False in line 23.
   Run model_pooling_tuning_word2vec.py. Ensure that self.embedding.weight.requires_grad = True is put to False in line 36.
+ 
 
 Q2 Sample output (full results in the report):
 | Depth | Width | Model Performance                                                       |
