@@ -58,6 +58,16 @@ Follow the instructions below to run the project files.
 2. **Updated Embeddings with Attention and Pooling**:  
    - Run `rnn_model_tuning_updated_embeddings.py`  
      Ensure `self.embedding.weight.requires_grad = True` (line 23).  
+
+     **Output**:  
+     - Vocabulary size: 16,545  
+     - OOV Words:  
+       - Word2Vec: 1,651  
+       - FastText: 386  
+       - Lemmatizer: 384  
+       - Digits Embedder: 263  
+       - Edit Distance: 66  
+
    - Run `max_pooling_tuning_updated_embeddings.py`  
      Ensure `self.embedding.weight.requires_grad = True` (line 23).  
    - Run `mean_pooling_tuning_updated_embeddings.py`  
